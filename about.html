@@ -3,7 +3,7 @@
 
 <head>
     <script type="text/javascript"
-        src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rjHbkTJFIPjgUnoPsHSy2qqI1BvnHZbtnzLTv4pLY0G44_FnKyHXvAfU1DrqgQRw6qt66PM5XZZGcwQqw_PPXQ"
+        src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=B5ST0Hs3Bfa1W5B6RFyjq-1hs6qOpNDm0ubfVM15I_zngFMgFEyoFNevj_JB8JNWOlnJJ8w-dSerH8wuZuvYuw"
         charset="UTF-8"></script>
     <script type="text/javascript"
         src="https://codesandbox.io/public/sse-hooks/sse-hooks.e15ace8ccace5398a721ffec81f121de.js"></script>
@@ -29,19 +29,40 @@
 </head>
 
 <body>
-    <div class="about-section container">
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="images/logo.png" class="logo d-none d-md-block" alt="Felicity Logo" />
+                <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Felicity Logo" />
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage"> Home</a>
+                </li>
+                <li class="active">
+                    <a href="/about.html" title="About Felicity"> About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Felicity's work"> Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Felicity"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="about-section-content">
-                    <h1 class="mb-4">Hi I am Felicity Nyoni</h1>
-                    <h2 class="mb-4">Frontend Developer, based in South Africa.</h2>
+                <div class="content">
+                    <h1 class="mb-4">Hi, I’m Felicity Nyoni</h1>
+                    <h2 class="mb-4">Front-end developer based in South Africa</h2>
                     <p class="mb-5">
-                        For anyone who wants to start learning code, this workshop is very
-                        interesting. You will be challenged with different exercises, and
-                        everything is well explained, homework and deadlines are good for
-                        keep focus
+                        I’m currently seeking new opportunities in front-end development.
+                        I’m open to work remotely and have flexible hours. I’m highly
+                        skilled in JavaScript and React.
                     </p>
-                    <a href="" class="btn btn-branding">See my projects</a>
+                    <a href="/work.html" class="btn btn-branding">See my projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -49,6 +70,34 @@
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact ">
+                    Contact me
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:felinyoni29@gmail.com" class="email-link" title="Email Felicity Nyoni"> felinyoni29@gmail.com </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/FelicityNyoni" target="_blank" title="GitHub Profile">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="text-center mt-5">
+            ✌️ This website was coded by Felicity Nyoni, and is
+            <a href="https://github.com/FelicityNyoni/Responsive-Project" target="_blank">
+                open-sourced
+            </a>
+        </p>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 </body>
 
 </html>

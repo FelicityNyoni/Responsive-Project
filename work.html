@@ -3,7 +3,7 @@
 
 <head>
     <script type="text/javascript"
-        src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=O3finHWxqlNVy-9BauV5dUSgaleZJQENNq1-AlV4kjWU_3Pqid8C-bUVWR3iWoCV4iBmroK0YGXkzdh6WHQ7gw"
+        src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jMhO0cKanh_GVKK3LflsKlwDz_nR9SpptNuqFpa-SBfTxAukOTY5_uItelVcFA04WVp7-8DH_6HcmSJroi5KqA"
         charset="UTF-8"></script>
     <script type="text/javascript"
         src="https://codesandbox.io/public/sse-hooks/sse-hooks.e15ace8ccace5398a721ffec81f121de.js"></script>
@@ -29,40 +29,95 @@
 </head>
 
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="images/logo.png" class="logo d-none d-md-block" alt="Felicity Logo" />
+                <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Felicity Logo" />
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage"> Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="About Felicity"> About</a>
+                </li>
+                <li class="active">
+                    <a href="/work.html" title="Felicity's work"> Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Felicity"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="content-container container">
         <div class="content">
             <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="" />
-                    <h3 class="text-center m-0">Yogurt Project</h3>
-                    <p class="text-center text-muted">Built with HTML and CSS</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="" />
-                    <h3 class="text-center m-0">Weather Project</h3>
+                    <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="Yogurt project preview" />
+                    <h3 class="text-center m-0">Yogurt Landing Page</h3>
                     <p class="text-center text-muted">
-                        Built with HTML, CSS and JavaScript
+                        Built with HTML, CSS, and JavaScript
                     </p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="" />
+                    <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="Weather project preview" />
+                    <h3 class="text-center m-0">Weather App</h3>
+                    <p class="text-center text-muted">
+                        Built using HTML, an active API, and advanced CSS and JavaScript
+                    </p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="Disctionary project preview" />
                     <h3 class="text-center m-0">Dictionary App</h3>
                     <p class="text-center text-muted">
-                        Built with HTML, CSS with React
+                        Built using HTML, an active API, advanced CSS, and React
                     </p>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="" />
+                    <img src="images/translation.png" class="img-fluid mb-3 rounded"
+                        alt="Translation project preview" />
                     <h3 class="text-center m-0">Translation App</h3>
                     <p class="text-center text-muted">
-                        Built with HTML, CSS with React
+                        Built using HTML, an active API, advanced CSS, and React
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Felicity">
+                    Contact me
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:felinyoni29@gmail.com" class="email-link" title="Email Felicity Nyoni"> felinyoni29@gmail.com </a>
+            
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/FelicityNyoni" target="_blank" title="GitHub Profile">
+                <i class="fab fa-github"></i>
+            </a>
+            
+        </div>
+        <p class="text-center mt-5">
+            ✌️ This website was coded by Felicity Nyoni, and is
+            <a href="https://github.com/FelicityNyoni/Responsive-Project" target="_blank">
+                open-sourced
+            </a>
+        </p>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 </body>
 
 </html>
